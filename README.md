@@ -10,7 +10,7 @@ saint : 이휘운
 tabphn : 김지웅  
 
 
-branch 만들시 naming은 feat_{각자주제} 로 해주시면 됩니다.
+branch 만들시 naming은 feat_{각자주제} 로 해주시면 됩니다.  
 (e.g.) feat_tabphn
 
 

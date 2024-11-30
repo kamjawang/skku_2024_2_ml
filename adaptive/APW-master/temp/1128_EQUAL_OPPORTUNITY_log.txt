@@ -1,0 +1,6 @@
+2024-11-30 09:49:07 root:INFO:  Arguments
+2024-11-30 09:49:07 root:INFO:  alpha: 1
+2024-11-30 09:49:07 root:INFO:  eta: 1.2
+2024-11-30 09:49:07 root:INFO:  epoch: 200
+2024-11-30 09:49:07 root:INFO:  save_dir: ./temp
+2024-11-30 09:49:07 root:INFO:  save_name: temp-name

@@ -9,12 +9,12 @@ Advanced Machine Learning Final Project Repository
 
 * Key Contributor per Model
 
-| Model      | Key Contributor  |
-|----------------------------------------|------------------|
-| SAINT                                  | 이휘운          |
-| PyTorch Frame (Column-Wise Interaction)| 박성준          |
-| MambaTab                               | 노희섭          |
-| Adaptive (Adaptive Priority Reweighing)| 이민규          |
+  | Model      | Key Contributor  |
+  |----------------------------------------|------------------|
+  | SAINT                                  | 이휘운          |
+  | PyTorch Frame (Column-Wise Interaction)| 박성준          |
+  | MambaTab                               | 노희섭          |
+  | Adaptive (Adaptive Priority Reweighing)| 이민규          |
 
 
 ![alt text](readme_image/image-1.png)  

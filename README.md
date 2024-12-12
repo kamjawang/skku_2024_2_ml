@@ -7,4 +7,4 @@ Column Wise Interaction : 박성준
 SAINT : 이휘운  
 
 ![alt text](readme_image/image-1.png)  
-![alt text](readme_image/image.png)
+

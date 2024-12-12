@@ -7,7 +7,7 @@ Group : 10
 
 FOCAL : 김지웅 (Project Leader)
 
-Model Owner
+Key Contributer per Model
 - saint : 이휘운  
 - pytorch_frame (Column Wise Interaction) : 박성준  
 - mambatab : 노희섭  

@@ -1,9 +1,9 @@
 # skku_2024_2_ml
 Advanced Machine Learning Final Project Repository  
 
-Semester : 2024, 2nd \n
-Department : Applied Data Science \n
-Group : 10 \n
+Semester : 2024 2nd  
+Department : Applied Data Science  
+Group : 10  
 
 FOCAL : 김지웅
 

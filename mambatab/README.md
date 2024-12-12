@@ -17,7 +17,7 @@
 - AUROC 0.906
 
 5. Implemented Performance
-- AUROC 0.901
+- AUROC 0.903
 
 6. file desripsions
 

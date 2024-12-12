@@ -7,7 +7,8 @@ Advanced Machine Learning Final Project Repository
 
 * FOCAL : 김지웅 (Project Leader)
 
-* Key Contributor per Model  
+* Key Contributor per Model
+
 | Model      | Key Contributor  |
 |----------------------------------------|------------------|
 | SAINT                                  | 이휘운          |

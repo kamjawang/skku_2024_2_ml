@@ -5,7 +5,7 @@ Semester : 2024 2nd
 Department : Applied Data Science  
 Group : 10  
 
-FOCAL : 김지웅
+FOCAL : 김지웅 (Project Leader)
 
 Model Owner
 - saint : 이휘운  

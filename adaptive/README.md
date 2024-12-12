@@ -1,4 +1,11 @@
-# Boosting Fair Classifier Generalization through Adaptive Priority Reweighing
+# Boosting Fair Classifier Generalization through Adaptive Priority Reweighing 관련 정리
+## 01. 논문 관련
+- 논문 : Boosting Fair Classifier Generalization through Adaptive Priority Reweighing https://arxiv.org/abs/2309.08375
+- 참고 코드 : [https://github.com/pyg-team/pytorch-frame](https://github.com/che2198/APW)
+- dataset : Adult (https://archive.ics.uci.edu/dataset/2/adult)
+- task : Classification
 
-- metric_example.py 를 가져다 쓰시면 될 것 같습니다.
-- 참고내용 노션 :  https://www.notion.so/Final-Project-Boosting-14a43f56cb04801cba21ff872edc6fce
+
+
+## 02. 코드 관련
+- 

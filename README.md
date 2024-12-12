@@ -5,9 +5,9 @@ Advanced Machine Learning Final Project Repository
 - Department : Applied Data Science  
 - Group : 10  
 
-* FOCAL : 김지웅 (Project Leader)
+- FOCAL : 김지웅 (Project Leader)
 
-* Key Contributor per Model
+- Key Contributor per Model
 
   | Model      | Key Contributor  |
   |----------------------------------------|------------------|
@@ -16,6 +16,7 @@ Advanced Machine Learning Final Project Repository
   | MambaTab                               | 노희섭          |
   | Adaptive (Adaptive Priority Reweighing)| 이민규          |
 
+- Model Description
 
 ![alt text](readme_image/image-1.png)  
 

@@ -11,9 +11,9 @@
   | Model      | Key Contributor  |
   |----------------------------------------|------------------|
   | [SAINT](saint)                                  | 이휘운          |
-  | [PyTorch Frame (Column-Wise Interaction)](pytorch_frame)| 박성준          |
+  | [Column-Wise Interaction Transformer)](pytorch_frame)| 박성준          |
   | [MambaTab](mambatab)                               | 노희섭          |
-  | [Adaptive (Adaptive Priority Reweighing)](adaptive)| 이민규          |
+  | [Adaptive Priority Reweighing](adaptive)| 이민규          |
 
 ## Model Description
 

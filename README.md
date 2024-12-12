@@ -4,7 +4,8 @@
 ## Department : Applied Data Science  
 ## Group : 10  
 
-###FOCAL : 김지웅 (Project Leader)
+###FOCAL : 김지웅 (Project Leader)  
+
 ###Key Contributor per Model
 
   | Model      | Key Contributor  |

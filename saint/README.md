@@ -1,9 +1,9 @@
-# Pytorch_Frame 관련 정리
+# SAINT 관련 정리
 
 ## 01. 논문 관련
 
-- 논문 : [PyTorch Frame: A Modular Framework for Multi-Modal Tabular Learning](https://arxiv.org/abs/2404.00776)
-- 참고 코드 : https://github.com/pyg-team/pytorch-frame
+- 논문 : SAINT: Improved Neural Networks for Tabular Data via Row Attention and Contrastive Pre-Training   (https://arxiv.org/abs/2106.01342)
+- 참고 코드 : [https://github.com/pyg-team/pytorch-frame](https://github.com/somepago/saint)
 - dataset : Adult (https://archive.ics.uci.edu/dataset/2/adult)
 - task : Classification
 
@@ -11,75 +11,31 @@
 
 ## 02. 코드 관련
 
-#### [01_Pytorch_Frame_Claude.ipynb](https://github.com/kamjawang/skku_2024_2_ml/blob/main/pytorch_frame/01_Pytorch_Frame_Claude.ipynb)
+#### SAINT_Group10_Final_논문재현.ipynb
 
 - 설명
-  - 논문 기반으로 코드 작성 수행 (FTTransformer)
-  - AUROC : 0.7208
+  - 논문에 활용된 데이터 셋을 활용하여 재현
+  - AUROC : 0.9183
 
 
 
-#### [02_Pytorch_Frame_Claude_revision.ipynb](https://github.com/kamjawang/skku_2024_2_ml/blob/main/pytorch_frame/02_Pytorch_Frame_Claude_revision.ipynb)
-
-- 설명
-  - code 01에서 columnTransformer를 활용한 전처리 진행 시, feature가 줄어드는 오류
-  - 전처리 시 코드 수정
-  - AUROC : 0.9004
-
-
-
-#### [03_Pytorch_Frame_Claude_revision_one_by_one.ipynb](https://github.com/kamjawang/skku_2024_2_ml/blob/main/pytorch_frame/03_Pytorch_Frame_Claude_revision_one_by_one.ipynb)
+#### SAINT_Group10_Final.ipynb
 
 - 설명
-  - code 02에 대한 세부적인 내용을 팀원과 공유하기 위해 함수별 분할 작성
-  - 시각화 내용 추가
-  - AUROC : 0.9028
+  - 그룹에서 통일한 Adult 데이터셋 활용
+  - 전처리시 데이터에 맞게 차원수정
+  - 역전파 방지
 
+이때 column간 상호정보량을 확인하며 하이퍼 파라미터 수정 및 epoch 조정
 
+모델 평가 결과:
+정확도 (Accuracy): 0.8585
+AUROC: 0.9129
+정밀도 (Precision): 0.7673
+재현율 (Recall): 0.6110
+F1 점수 (F1-Score): 0.6803
 
-#### 04_Pytorch_fairness_auroc.ipynb
-
-- 설명
-  - fairness 지표와 pytorch frame 모델 결합 시도
-  - evaluation code 오류로 삭제 처리
-
-
-
-#### [05_Pytorch_fairness_interaction_dimension_variation.ipynb](https://github.com/kamjawang/skku_2024_2_ml/blob/main/pytorch_frame/05_Pytorch_fairness_interaction_dimension_variation.ipynb)
-
-- 설명
-  - [Boosting Fair Classifier Generalization through Adaptive Priority Reweighing](https://github.com/kamjawang/skku_2024_2_ml/tree/main/adaptive) 를 참고하여 fairness 지표 추가
-
-  - 이때 column간 상호정보량 dimension을 조정하며, 성능 변화를 파악
-
-  - interaction_dim이라는 변수가 조정
-
-  - AUROC 평가 미진행 / 공정성 지표만 파악
-
-    
-
-
-
-#### [07_Pytorch_fairness_weights_selection.ipynb](https://github.com/kamjawang/skku_2024_2_ml/blob/main/pytorch_frame/07_Pytorch_fairness_weights_selection.ipynb)
-
-- 설명
-  - [Boosting Fair Classifier Generalization through Adaptive Priority Reweighing](https://github.com/kamjawang/skku_2024_2_ml/tree/main/adaptive) 를 참고하여 fairness 지표 추가
-
-  - 손실함수를 조정하며, 성능 변화를 파악한 코드
-
-  - lambda_fairness 라는 변수가 조정
-
-  - AUROC 평가 미진행 / 공정성 지표만 파악
-
-    
-
-
-
-#### [07_Pytorch_fairness_weights_selection.ipynb](https://github.com/kamjawang/skku_2024_2_ml/blob/main/pytorch_frame/07_Pytorch_fairness_weights_selection.ipynb)
-
-- 설명
-  - 기본 code에서 eop, op, dp 가중치를 주어 변화 파악
-  - AUROC: 0.895
-  - EOP : 0.0161 (기존 논문 : 0.08)
-    - 가중치 : 0.5(EOP) / 0.25(EO) / 0.25(DP)
-
+공정성 지표:
+Demographic Parity (DP): 0.1668
+Equal Opportunity (EO): 0.0503
+Equality of Odds (EOP): 0.1173
